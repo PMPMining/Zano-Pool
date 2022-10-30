@@ -98,13 +98,20 @@ Usage
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
   * [List of Cryptonote coins](https://github.com/muscleman/progpow-nodejs-pool/wiki/Cryptonote-Coins)
-* [Node.js](http://nodejs.org/) 12.22.6 to 14.15.2
+* [Node.js](http://nodejs.org/) 12.22.12
   * For Ubuntu: 18.04 or 20.04
  ```
-  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
-  sudo apt-get install -y nodejs
- ```
-  * Or use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
+  
+  *use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+source ~/.bashrc
+sudo chown -R $USER:$GROUP ~/.nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+nvm install 12
+nvm use v12
+  
 
 
 * [Redis](http://redis.io/) key-value store v2.6+ 
