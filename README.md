@@ -97,12 +97,10 @@ Usage
 
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
-  * [List of Cryptonote coins](https://github.com/muscleman/progpow-nodejs-pool/wiki/Cryptonote-Coins)
-* [Node.js](http://nodejs.org/) 12.22.12
-  * For Ubuntu: 18.04 or 20.04
- ```
-  
-  *use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
+* [List of Cryptonote coins](https://github.com/muscleman/progpow-nodejs-pool/wiki/Cryptonote-Coins)
+* Node.js 12.22.12
+* For Ubuntu: 18.04 or 20.04 use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
+ ```  
   
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 source ~/.bashrc
