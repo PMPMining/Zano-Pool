@@ -110,7 +110,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 nvm install 12
 nvm use v12
-  
+ ``` 
 
 
 * [Redis](http://redis.io/) key-value store v2.6+ 
