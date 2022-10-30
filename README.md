@@ -158,7 +158,7 @@ sudo su - your-user
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-https://github.com/minershaven/zano-pool.git pool
+git clone https://github.com/minershaven/zano-pool.git pool
 cd pool
 
 npm update
